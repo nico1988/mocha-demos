@@ -10,3 +10,8 @@ describe('加法函数的测试', function() {
     expect(add(0, 0)).to.be.equal(0);
   });
 });
+describe("加法的测试",function(){
+    it("1+1",function(){
+        expect(add(1,1)).to.be.equal(2);
+    })
+})
